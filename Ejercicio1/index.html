@@ -3,13 +3,11 @@
     <head>
         <title>Ejercicio 1</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" /><!--ENCONTRE UN CSS CON MUCHAS COSAS PARA UTILIZAR ASI QUE DE AHI SACO LOS COLORES JEJE -->
     </head>
 
     <body>
-        <!-- Navigation bueno entontre esto ojala me funcione jeje-->
+        <!-- Navigation bueno entontre esto ojala me funcione jeje.... parece que el script en js le ahce bajar despacio y no irse de golpe pero ahora lo dejare asi -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">Agencia de modelos (Montero Erick)</a>
@@ -19,9 +17,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#information">Informacion</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#photos">Photos</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contacts">Contactos</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,23 +30,89 @@
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Agencia de modelos Quito SA</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Una agencia de modelaje o agencia de modelos es una sociedad mercantil que se encarga de la representación de modelos (femeninas, masculinos, infantiles y de mascotas). A su cabeza se encuentra un director, quien es auxiliado por el booker.</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Una agencia de modelaje o agencia de modelos</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#information">Mas informacion...</a>
                 </div>
             </div>
         </header>
 
         <!-- Seccion para poner la informacion de la agencia de modelos y usar las anclas-->
         <section class="seccion-informacion text-cente" id="information">
-            <h2></h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-black">Informacion</h2>
+                        <p class="text-black">
+                            Agencia de modelos Quito SA deja a su disposicion una muestra del trabajo de las modelos (Claro es un ejemplo si trabajaran aqui son iamgenes de google)
+                            <br>
+                            Una agencia de modelaje o agencia de modelos es una sociedad mercantil que se encarga de la representación de modelos (femeninas, masculinos, infantiles y de mascotas).<br>
+                            A su cabeza se encuentra un director, quien es auxiliado por el booker. También cuenta con la ayuda del scout, que es la persona que se dedica a la búsqueda de modelos o scouting.<br> Las modelos se encuentran acompañadas y protegidas en sus desplazamientos por el chaperon.
+                            Algunas agencias de modelos tienen una escuela de modelaje. También suelen tener fotógrafos y comerciales.
+                        </p>
+                    </div>
+                </div>
+                <img class="img" src="assets/img/quito.jpeg" alt=""/>
+            </div>
         </section>
-        <!-- Seccion para poner las fotos -->
+        <!-- Seccion para poner las fotos quice hacerle una especie de sliding para als fotos pero se manda un script jaja y no pide eso-->
         <section class="photos-section" id="photos">
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-white mb-4">Fotos</h2>
+                        <p class="text-black">
+                            Galeria
+                            
+                        </p>
+                    </div>
+                </div>
+                <img class="img-model" src="assets/img/Modelo1.jpg" alt="" />
+                <img class="img-model" src="assets/img/Modelo2.jpg" alt="" />
+                <img class="img-model" src="assets/img/Modelo3.jpg" alt="" />
+                <img class="img-model" src="assets/img/Modelo4.jpeg" alt="" />
+            </div>
         </section>
         <!-- seccion de contactos y comunicacion asi creo que se le llama-->
         <section class="contact-section" id="contacts">
-            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Direccion</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">Oe8-o2 Husares Quito</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Correo Electronico</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50"><a href="#!">contactomodelo@quitomodelsss.com.ec</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Telefono</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">+ (593) 02 234 2302 Not llamar no se si sea numero de alguien</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
         </section>
     </body>
 </html>
